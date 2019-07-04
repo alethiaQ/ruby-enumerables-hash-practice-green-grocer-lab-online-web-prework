@@ -43,6 +43,7 @@ def apply_clearance(cart)
       item[:price] = (item[:price] - disc_amount).round(2)
     end
     cart
+  end
 end
 
 def checkout(cart, coupons)
